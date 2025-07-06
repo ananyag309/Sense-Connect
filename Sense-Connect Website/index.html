@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bright-future-pathways-unite</title>
+    <meta name="description" content="UniqUs Project" />
+    <meta name="author" content="Lovable" />
+
+    <meta property="og:title" content="uniq-us" />
+    <meta property="og:description" content="UniqUs Project" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dev" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Vapi AI Assistant Integration -->
+    <script>
+      var vapiInstance = null;
+      const assistant = "fe7ac12c-3a48-45cd-b829-cc59f23f9436";
+      const apiKey = "cd948943-2b2a-4742-9732-ee6043825912";
+      const buttonConfig = {}; // Modify this as required
+
+      (function (d, t) {
+        var g = document.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src =
+          "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+
+        g.onload = function () {
+          vapiInstance = window.vapiSDK.run({
+            apiKey: apiKey,
+            assistant: assistant,
+            config: buttonConfig, // optional
+          });
+        };
+      })(document, "script");
+    </script>
+  </body>
+</html>
