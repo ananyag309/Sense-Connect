@@ -1,16 +1,4 @@
-# Welcome to UniqUs
-
-Inclusive AI-Powered Educational Web Platform
-
-UniqUs is an AI-powered educational platform built to empower **urban, rural, and specially-abled students**, including those with **physical disabilities, color blindness, and hearing/speech impairments**. The platform offers inclusive learning, career guidance, and internship opportunities—all in one place.
-
----
-
-## 🧩 Problem Statement
-
-**How might we empower specially-abled and geographically diverse students to access inclusive education, skill development, and career opportunities in a unified platform using AI-driven assistive technologies?**
-
----
+# Welcome to Sense Connect
 
 ## 🚀 MVP (Minimum Viable Product)
 
